@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lisa Balbach's Home page</title>
+
+<link rel="stylesheet" href="css/index.css" media="all">
+
+<link rel="stylesheet" href="css/print.css" media="print">
+
+<link rel="stylesheet" href="css/slider.css" />
+
+<style>
+#animatedButton a {
+	display:flex;
+    transition: 0.3s; 
+    padding: 1%; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: black; 
+    border-radius: 0 15px 15px 0; 
+    border:1px solid black;
+    background-color:palegoldenrod;
+    opacity:.4;
+}
+#animatedButton a:hover {
+    left: 0;
+    background-color:#FFCC66;
+    opacity:1; 
+    padding:5%;
+}
+</style>
+
+</head>
+
+<body class="row">
+<nav id="myTopnav" class="topnav col-12">
+		  <a href="javascript:void(0)" id="iconChar"class="icon" onclick="navFunction()">&#9776;</a>
+		  <a href="index.html">About</a>
+		  <a href="portfolio.html">Portfolio</a>
+		  <a href="social.html">Social</a>
+		  <a href="Resources.html">Web Resources</a>
+		  <a href="Inspiration.html" class="active">Inspiration</a>
+	  
+</nav>
+	<script id="noprint">
+		function navFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+<header>
+	<h1  class="col-12">Lisa Balbach</h1>
+	<h3 class="col-12 orange">Educator, Web Programmer, Designer, Photographer, Digital Artist</h3>
+</header>
+
+
+
+<section id="main" class="col-6">
+
+<h2 style="color:orangered; margin-bottom:10px;">Inspirational Work...</h2>
+
+<div id="animatedButton">
+
+	<a href="http://www.anseladams.com">Ansel Adams - landscape photographer</a>
+
+	<a href="http://www.johnpaulcaponigro.com/">John Paul Caponigro - landscape photographer</a>
+
+	<a href="http://www.uelsmann.net/works.php">Jerry Uelsmann - surrealist photographer</a>
+
+	<a href="http://www.erikjohanssonphoto.com">Erik Johansson - surrealist photographer</a>
+
+	<a href="http://lushpin.com">Evgeny Lushpin - photo-realistic paintings </a>
+
+	<a href="http://www.okeeffemuseum.org">Georgia O&#39;Keeffe</a>
+
+	<a href="http://www.alicepasquini.com">Alice Pasquini - street artist</a>
+
+</div>
+
+</section>
+<section class="col-6" >
+       <div class="slider">
+        <div class="slide-viewer">
+          <div class="slide-group">
+            <div class="slide slide-1">
+              <img src="media/300pxwide/frost.jpg" alt="frost abstraction"/>
+            </div>
+            <div class="slide slide-2">
+              <img src="media/300pxwide/tiger-mixed.jpg" alt="mixed media tiger"  />
+            </div>
+            <div class="slide slide-3">
+              <img src="media/300pxwide/pepin-fishing-at-sunset.jpg" alt="Fishing on Lake Pepin"  />
+            </div>
+            <div class="slide slide-4">
+              <img src="media/300pxwide/pissed-off-bluejay.jpg" alt="Black and White Blue Jay"  />
+            </div>
+            <div class="slide slide-5">
+              <img src="media/300pxwide/naples-pier.jpg" alt="Naples Pier"/>
+            </div>
+            <div class="slide slide-6">
+              <img src="media/300pxwide/poker-bear.jpg" alt="Poker Playing Bear"  />
+            </div>
+            <div class="slide slide-7">
+              <img src="media/300pxhigh/astiMultiMedia.jpg" alt="Mixed Media Yorkie"  />
+            </div>
+            <div class="slide slide-8">
+              <img src="media/300pxwide/abstract-danielle.jpg" alt="Composite Image Abstraction"  />
+            </div>
+            
+          </div>
+        </div>
+        <div class="slide-buttons"></div>
+        <p style="text-align:center;">&copy; Photography by Lisa Balbach</p>
+      </div>
+    </section>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/slider.js"></script>
+
+
+
+
+<footer class="col-12">&copy; Lisa Balbach 2017/2018</footer>
+
+</body>
+
+</html> 
+

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lisa Balbach's Home page</title>
+
+<link rel="stylesheet" href="css/index.css" media="all">
+
+<link rel="stylesheet" href="css/print.css" media="print">
+
+<link rel="stylesheet" href="css/slider.css" />
+<style>
+#animatedButton a {
+    display:flex;
+    transition: 0.3s; 
+    padding: 5%; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: black; 
+    border-radius: 0 15px 15px 0; 
+    border:1px solid black;
+    background-color:palegoldenrod;
+    opacity:.4;
+}
+#animatedButton a:hover {
+    left: 0;
+    opacity:1; 
+    padding:10%;
+}
+
+
+</style>
+
+</head>
+
+<body class="row">
+<nav id="myTopnav" class="topnav col-12">
+		  <a href="javascript:void(0)" id="iconChar"class="icon" onclick="navFunction()">&#9776;</a>
+		  <a href="index.html">About</a>
+		  <a href="portfolio.html" class="active">Portfolio</a>
+		  <a href="social.html">Social</a>
+		  <a href="Resources.html">Web Resources</a>
+		  <a href="Inspiration.html">Inspiration</a>
+		  
+</nav>
+	<script id="noprint">
+		function navFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+<header>
+	<h1  class="col-12">Lisa Balbach</h1>
+	<h3 class="col-12 orange">Educator, Web Programmer, Designer, Photographer, Digital Artist</h3>
+</header>
+
+
+<section id="main" class="col-4">
+
+<h2 style="color:black;margin-bottom:20px;">Gallery Work...</h2>
+
+<nav id="animatedButton" >
+
+	<a href="myFilterSearch.html">Variety</a>
+
+	<a href="https://lisabalbach.wordpress.com/digital-artwork-and-fine-art-photography/mixed-media/" >Mixed Media</a>
+
+	<a href="https://lisabalbach.wordpress.com/digital-artwork-and-fine-art-photography/high-contrast-photography/" >High Contrast</a>
+
+	<a href="https://lisabalbach.wordpress.com/digital-artwork-and-fine-art-photography/panoramic-gallery/" >Panoramic</a>
+
+	<a href="https://lisabalbach.wordpress.com/digital-artwork-and-fine-art-photography/macrophotography-gallery/" >Macro</a>
+
+</nav>
+
+</section>
+<section class="col-8" >
+       <div class="slider">
+        <div class="slide-viewer">
+          <div class="slide-group">
+            <div class="slide slide-1">
+              <img src="media/300pxwide/gg-bridge.jpg" alt="Golden Gate Bridge"/>
+            </div>
+            <div class="slide slide-2">
+              <img src="media/300pxwide/sf-bay.jpg" alt="San Francisco Bay"  />
+            </div>
+            <div class="slide slide-3">
+              <img src="media/300pxhigh/zebra.jpg" alt="high-contrast zebra"  />
+            </div>
+            <div class="slide slide-4">
+              <img src="media/300pxhigh/palomino.jpg" alt="mixed-media horse"  />
+            </div>
+            <div class="slide slide-5">
+              <img src="media/300pxhigh/naples-pier.jpg" alt="Naples Pier"  />
+            </div>
+            <div class="slide slide-6">
+              <img src="media/300pxwide/monarch.jpg" alt="Black and White Monarch"  />
+            </div>
+             <div class="slide slide-7">
+              <img src="media/300pxwide/pink-rose-bw.jpg" alt="Black and White Rose-macro view"  />
+            </div>
+              <div class="slide slide-8">
+              <img src="media/300pxwide/lakepepin.jpg" alt="Lake Pepin Panoramic"  />
+            </div>
+          
+            
+          </div>
+        </div>
+        <div class="slide-buttons"></div>
+        <p style="text-align:center;">&copy; Photography by Lisa Balbach</p>
+      </div>
+    </section>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/slider.js"></script>
+
+
+
+<footer class="col-12">&copy; Lisa Balbach 2018</footer>
+
+</body>
+
+</html> 
+

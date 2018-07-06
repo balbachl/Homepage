@@ -1,0 +1,81 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #888;
+	font-family: 'Karla', sans-serif;
+    color: #333;}
+
+/* Header */
+header {
+	background-color: #333333;
+	margin: 0 0 40px 0;
+	padding: 20px;
+	text-align: center;}
+
+h1 {
+  color:white;
+  margin: 10px auto 5px auto;
+  text-align: center;
+  overflow: hidden;}
+
+h2 {
+	margin: 0;
+	color:white;
+}
+/* Filter and search options */
+/* Filter buttons */
+div{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:20px;
+}
+button {
+	background-color: #d7d7d7;
+	border: none;
+	padding: 3px 10px 4px 10px;
+	margin-right:10px;
+	border-radius: 10px;
+	box-shadow:1px 1px black;
+	color: #333;
+	font-family: 'Karla', sans-serif;
+	font-size: 100%;
+}
+
+button:hover, button.active {
+	background-color: black;
+	color: white;
+	box-shadow:1px 1px darkgray;
+	cursor: pointer;
+}
+
+
+/* Search input */
+input {
+	font-size: 120%;
+	border: 1px solid #999;
+	padding: 5px;
+	text-align:center;
+}
+input:hover {
+	border: 1px solid #666;}
+input:focus {
+	border: 1px solid #00cccc;
+	outline: none;}
+
+/* Gallery of images */
+#gallery {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gallery img {
+	width: auto;
+	height: 300px;
+	border-radius: 3px;
+	border: 8px solid #fff;
+	margin: 15px;
+    box-shadow: 0 0 2px 2px #ebebeb;
+	float: left;}

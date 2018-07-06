@@ -1,0 +1,5 @@
+﻿@import url("screen.css");
+@import url("screen.css") only screen and (min-device-width:481px);
+@import url('antiscreen.css') handheld;
+@import url('antiscreen.css') only screen and (max-device-width:480px);
+@import url("print.css")only print;
