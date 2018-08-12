@@ -1,4 +1,10 @@
-﻿.topnav {
+﻿* {
+
+    box-sizing: border-box;
+
+}
+
+.topnav {
   overflow: hidden;
   background-color: black;
   text-align:right;
@@ -44,9 +50,6 @@
 	background-color:white;
 	color:black;
 }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -66,6 +69,13 @@
     .topnav.responsive a:hover{
 	background-color:white;
 	color:black;
+}
+table{
+	background-color:orangered;
+}
+table img{
+	border:none;
+	box-shadow:none;
 }
 
 }
@@ -101,11 +111,6 @@
 }
 
 
-* {
-
-    box-sizing: border-box;
-
-}
 
 .row::after {
 
@@ -315,6 +320,20 @@ img{
 
 }
 
+table{
+	background-color:orangered;
+}
+table img{
+	box-shadow:none;
+
+ 	border:none; 
+
+ 	width:125px; 
+ 	
+ 	height:auto;
+
+}
+
 #previous{
 
 	display:inline-block;
@@ -463,3 +482,4 @@ h2,h3{
 	border-radius:20px;
 	
 }
+
